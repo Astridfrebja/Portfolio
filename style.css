@@ -1,0 +1,66 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20vw; 
+}
+
+body {
+    background: #ffff;
+    color: #1a1a1a;
+
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 50;
+    line-height: 1.6;
+}
+
+.intro strong {
+    font-weight: 600; 
+}
+
+p strong {
+    font-weight: 600;
+}
+
+.intro {
+    margin-bottom: 20px;
+}
+
+.featured {
+    margin: 30px 0 50px;
+    padding-bottom: 30px;
+    border-bottom: 0.5px solid #999;
+}
+
+.project {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10vh;
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.project-title {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.project-tag {
+    font-size: 0.9rem;
+    color: #999;
+    font-style: italic;
+}
