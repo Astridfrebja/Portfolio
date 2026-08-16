@@ -64,3 +64,18 @@ p strong {
     color: #999;
     font-style: italic;
 }
+
+.project-images {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.project-image.device {
+    flex: 0 0 auto; 
+    max-width: 100%;
+    width: 100%;
+    flex: 1 1 100%
+}
