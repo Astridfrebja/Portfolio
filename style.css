@@ -91,6 +91,12 @@ a:hover {
     cursor: pointer;
 }
 
+.project-images video {
+    border: 2px solid #f0f0f0;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
 .project-image.device {
     flex: 0 0 auto; 
     max-width: 100%;
